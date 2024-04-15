@@ -20,6 +20,7 @@ public class MercadoriaServiceTest {
     public void init(){
         pedidoGateway = mock(PedidoGateway.class);
         mercadoriaService = new MercadoriaService(pedidoGateway);
+        System.out.println("Só mudando algo para aparecer no commit");
     }
 
     @Test
